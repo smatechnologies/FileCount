@@ -1,5 +1,5 @@
-# Project Name
-Project description
+# File Count
+To see if a directory has X amount of files and have PowerShell keep checking until that amount is reached
 
 # Disclaimer
 No Support and No Warranty are provided by SMA Technologies for this project and related material. The use of this project's files is on your own risk.
@@ -7,10 +7,15 @@ No Support and No Warranty are provided by SMA Technologies for this project and
 SMA Technologies assumes no liability for damage caused by the usage of any of the files offered here via this Github repository.
 
 # Prerequisites
-
+* Powershell 5.1+
+* OpCon MSLSAM v19+
+* OpCon Release v18.3+
 
 # Instructions
-
+1. Run a Embedded Script using the OpConFileCount.ps1 passing in parmaters similar to the example below: 
+```
+-SourceDirectory "C:\ProgramData\OpConxps\temp\New folder" -Count 26  -Time 3
+```
 
 # License
 Copyright 2019 SMA Technologies
